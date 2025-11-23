@@ -1,0 +1,26 @@
+{
+  "name": "tmserver",
+  "version": "1.0.0",
+  "description": "my tech job platform",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zafor iqbal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^9.0.0",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.11",
+    "path": "^0.12.7",
+    "pdf-parse": "^1.1.4"
+  }
+}
