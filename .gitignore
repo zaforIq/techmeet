@@ -1,0 +1,49 @@
+### --- GLOBAL IGNORE (for entire repo) ---
+*.log
+*.env
+*.env.*
+.env.local
+.env.development
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Node.js / JavaScript cache
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+coverage/
+
+### --- PROJECT SPECIFIC IGNORE --- ###
+
+# Node.js backend
+node-backend/node_modules/
+node-backend/dist/
+
+# Next.js frontend
+next-frontend/node_modules/
+next-frontend/.next/
+next-frontend/out/
+
+# FastAPI app
+fastapi-ml/__pycache__/
+fastapi-ml/.pytest_cache/
+fastapi-ml/.mypy_cache/
+fastapi-ml/.ruff_cache/
+
+# Virtual environment (if inside project)
+fastapi-ml/venv/
+venv/
