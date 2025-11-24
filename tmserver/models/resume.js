@@ -3,6 +3,11 @@ import mongoose from "mongoose";
 const ResumeSchema = new mongoose.Schema({
   user_id: mongoose.Schema.Types.ObjectId,
   name: String,
+  email: String,
+  phone: String,
+  education: String,
+  certifications: [String],
+  achievements: [String],
   designation: String,
   skills: [String],
   summary: String,
